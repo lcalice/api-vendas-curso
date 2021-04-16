@@ -5,7 +5,7 @@ import routes from './routes';
 import AppError from '../errors/AppError';
 import '@shared/typeorm';
 
-const app = express(); /*teste*/
+const app = express();
 
 app.use(cors());
 app.use(express.json());
